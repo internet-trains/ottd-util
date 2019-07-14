@@ -1,9 +1,5 @@
 class Random {
-
-    constructor() {
-    }
-
-    function RandomAccessGSList(gslist) {
+    static function RandomAccessGSList(gslist) {
         local index = [];
         foreach(item, value in gslist) {
             index.push(item);
